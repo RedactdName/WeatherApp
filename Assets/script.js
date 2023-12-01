@@ -1,4 +1,4 @@
-console.log("JS is loaded");
+console.log("test");
 // Variables
 const  citySearch = document.getElementById("citySearch")
 const searchBtn = document.getElementById("searchBtn")
