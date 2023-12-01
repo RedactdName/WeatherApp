@@ -46,7 +46,7 @@ function initHistory() {
 initHistory()
 //Next fucntion use the user input for the GEO API
 function getGeo(userInput) {
-    var apiURL = `http://api.openweathermap.org/geo/1.0/direct?q=${userInput}&limit=5&appid=${keyID}`
+    var apiURL = `https://api.openweathermap.org/geo/1.0/direct?q=${userInput}&limit=5&appid=${keyID}`
     console.log(userInput)
 
     fetch(apiURL)
