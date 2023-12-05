@@ -11,18 +11,18 @@
     <Header class="container-fluid justify-content-center bg-primary">
         <h1 class="row">Weather Dashboard</h1>
     </Header>
-    <main class="container">
-            <div class="col-md-3 col-sm-12">
+    <main class="daily-card">
+            <aside id="search-container" class="col-md-3 col-sm-12">
              <h2>City Search</h2> 
                 <input type="text" id="citySearch">
                 <button class="btn btn-danger" id="searchBtn" type="button">Search</button>
                 <div id="history-btn"></div>
-            </div>
-            <div class="col-md-9 col-sm-12">
+            </aside>
+            <div id="todays-info" class="">
                 
                 <div id="city">
                     <h2>Daily Weather</h2>
-                     <div id="currentDay">
+                     <div id="currentDay" class="todays-info">
                         <!-- <div class="card" style="width: 18rem;">
                             <h5 class="card-title" id="city-name">Card title</h5> --> 
                             <!-- <img src="..." class="card-img-top" alt="..."> -->
@@ -36,9 +36,9 @@
                     </div>
             
                 </div>
-            <div id="5day">
+            <div class="five-day" id="container-daily-cards">
                 <h2>Five Day Forecast</h2>
-                <div id="5DayCard"></div>
+                <div id="5DayCard" class="weather-display"></div>
             </div>
             </div>
         </div>
